@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Acústica Arquitectónica</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css">
+</head>
+
+<!-- <body style="background-color:#005D6E"> -->
+<body>
+
+  <!-- MENU DESPLEGABLE MOVIL -->
+  <nav>
+
+    <!-- ESTRUCTURA MENUS DESPLEGABLES-->
+    
+
+    <!-- CLASE NAV + COLOR -->
+    <div class="nav-wrapper #006064 cyan darken-4">
+      <a href="index.html" class="brand-logo"><img src="images/portada/logo-blanco-miniatura.png"></a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+
+
+
+      <!-- BARRA MENU PC/TABLET -->
+      <ul class="right hide-on-med-and-down">
+        <!--li><a href="">Obras</a></li-->
+        <li><a href="arquitectura.html">Acústica Arquitectónica</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+      </ul>
+
+      <!-- BARRA MENU MOVILES -->
+      <ul class="side-nav" id="mobile-demo">
+        <!--li><a href="">Obras</a></li-->
+        <li><a href="arquitectura.html">Acústica Arquitectónica</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- FIN BARRA DE MENU -->
+
+  <!-- CUERPO DE LA PAGINA -->  
+
+
+  <!-- SLIDER DE IMAGENES -->
+
+  <div class="slider" width="75%">
+    <ul class="slides">
+
+      <li>
+        <img src="images/controlRuido/geerador.jpg"> <!-- random image -->
+        <div class="caption right-align">
+          <h3>CIne Hoyts La Reina</h3>
+          <h5 class="light-text text-lighten-3">Cabinas de Equipos de Aire Acondicionado</h5>
+        </div>
+      </li>
+
+      <li>
+        <img src="images/controlRuido/clima.JPG"> <!-- random image -->
+        <div class="caption right-align">
+          <h3>UCINF</h3>
+          <h5 class="light-text text-lighten-3">Cabinas de Equipos de Aire Acondicionado</h5>
+        </div>
+      </li>
+
+      <li>
+        <img src="images/controlRuido/absorcion.jpg"> <!-- random image -->
+        <div class="caption right-align">
+          <h3>CIne Hoyts La Reina</h3>
+          <h5 class="light-text text-lighten-3">Paneles Absorbentes</h5>
+        </div>
+      </li>
+
+      <li>
+        <img src="images/controlRuido/puerta.jpg"> <!-- random image -->
+        <div class="caption right-align">
+          <h3>Megavisión</h3>
+          <h5 class="light-text text-lighten-3">Portones Acústicos</h5>
+        </div>
+      </li>
+    </ul>
+  </div>
+  
+  <!-- FOOTER -->
+  <div class="row">
+
+
+  <!-- FOOTER REVESTIMIENTOS -->
+  <div class="col m1 l1">
+    <div class="card-content ">
+      <a>                  
+      </a>
+    </div>
+  </div>
+
+
+  <div class="col s12 m7 l5">
+    <div class="card-content ">
+      <a>                  
+        <span class="card-title">Control de Ruido</span>
+        <p>
+        El departamento de control de ruido está dedicado al desarrollo proyectos, estudios y mediciones de ruido;
+        montaje y fabricación de materiales acústicos de uso industrial.  También incluyen: cabinas de grupos generadores,
+        equipos de climatización, salas de frío, salas de bombas, pantallas de ruido, salas de máquinas en general,
+        así como también, el tratamiento y reducción de ruido en proyectos inmobiliarios, comercio y arquitectura.  
+        </p>
+      </a>
+    </div>
+  </div>
+
+  <!-- FICHA -->
+  <div class="col s12 m4 l3 ">
+    <div class="">
+      <div>
+        <p><a>SOLUCIONES</a></p>
+        <p><a href="./fichas/PuertaR40F.pdf">Puertas Metálicas <i class="small material-icons">description</i></a></p>
+        <p><a>Cabinas y Encierros Acústicos</a></p>
+        <p><a>Paneles y Barreras</a></p>
+        <p><a>Silenciadores</a></p>
+        <p><a>Revestimientos Absorbentes</a></p>
+        <p><a>Ventanas Acústicas de Seguridad</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER CONTACTO -->
+  <div class="col s12 m12 l3">
+    <div class="card #006064 cyan darken-4">
+      <div class="card-content white-text">
+        <span class="card-title">Contáctanos</span>
+        <p>(+56 2) 2548 1897 // 
+        contacto@ingmac.cl</p>
+        <a href="https://twitter.com/ingmac_acustica" class="icon-button twitter"><i class="icon-twitter"></i><span> INGMAC_ACUSTICA</span></a>
+      </div>
+    </div>
+  </div>
+  
+   <!--  Scripts-->
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+
+  <script>
+      $(document).ready(function(){
+      $(".button-collapse").sideNav();
+      $('.materialboxed').materialbox();
+      $(".dropdown-button").dropdown();
+      $('.slider').slider();
+      });
+  </script>
+  </body>
+</html>

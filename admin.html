@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Acústica Arquitectónica</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css">
+</head>
+
+<!-- <body style="background-color:#005D6E"> -->
+<body>
+
+  <!-- MENU DESPLEGABLE MOVIL -->
+  <nav>
+
+   
+
+    <!-- CLASE NAV + COLOR -->
+    <div class="nav-wrapper deep-orange darken-4">
+      <a href="index.html" class="brand-logo"><img src="images/portada/logo-blanco-miniatura.png"></a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+
+
+
+      <!-- BARRA MENU PC/TABLET -->
+      <ul class="right hide-on-med-and-down">
+        <!--li><a href="">Obras</a></li-->
+        <li><a href="">Salir</a></li>
+      </ul>
+
+      <!-- BARRA MENU MOVILES -->
+      <ul class="side-nav" id="mobile-demo">
+        <!--li><a href="">Obras</a></li-->
+        <li><a href="">Salir</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- FIN BARRA DE MENU -->
+
+  <!-- CUERPO DE LA PAGINA -->  
+
+
+
+  
+  <!-- FOOTER -->
+  <div class="row">
+
+  <!-- FOOTER PUERTAS -->
+  <div class="col s12 m6 l3">
+    <div class="card">
+        <div class="card-image">
+          <a href="usuarios.html">
+            <img src="images/icono/user.png">
+            <span class="card-title blue"><b>USUARIOS</b></span>
+          </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER REVESTIMIENTOS -->
+  <div class="col s12 m6 l3">
+    <div class="card">
+        <div class="card-image">
+          <a href="obrAdmin.html">
+            <img src="images/icono/obras.png"> 
+            <span class="card-title blue"><b>OBRAS</b></span>
+          </a>
+      </div>
+    </div>
+  </div>
+
+  
+   <!--  Scripts-->
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+
+  <script>
+      $(document).ready(function(){
+        $(".button-collapse").sideNav();
+        $('.materialboxed').materialbox();
+        $(".dropdown-button").dropdown();
+        $('.slider').slider();
+      });
+  </script>
+  </body>
+</html>

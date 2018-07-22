@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Acústica Arquitectónica - Control de Ruido</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+
+<!-- <body style="background-color:#005D6E"> -->
+<body>
+
+  <!-- MENU DESPLEGABLE MOVIL -->
+  <nav>
+
+      <!-- ESTRUCTURA MENUS DESPLEGABLES-->
+      <!-- REVESTIMIENTOS -->
+      <ul id="revestimientos2" class="dropdown-content">
+        <li><a href="entelado.html">Entelados</a></li>
+        <li><a href="ranurado.html">Perforados y Ranurados</a></li>
+        <li><a href="espuma.html">Espumas</a></li>
+      </ul>
+  
+      <!-- DIFUSORES-->
+      <ul id="difusores" class="dropdown-content">
+        <li><a href="reflex01.html">Reflex-1D</a></li>
+        <li><a href="reflex02.html">Reflex-2D</a></li>
+        <li><a href="flutter.html">Flutter Free</a></li>      
+      </ul>
+  
+      <!-- CIELOS-->
+      <ul id="cielos" class="dropdown-content">
+        <li><a href="#!">Cielos Acústicos</a></li>
+        <li><a href="#!">Cielos Modulares</a></li>      
+      </ul>
+  
+      <!-- AISLACION-->
+      <ul id="aislacion" class="dropdown-content">
+        <li><a href="#!">Tabiques</a></li>
+        <li><a href="#!">Ventanas</a></li>      
+      </ul>
+  
+      <!-- CLASE NAV + COLOR -->
+      <div class="nav-wrapper deep-orange darken-4">
+        <a href="index.html" class="brand-logo"><img src="images/portada/logo-blanco-miniatura.png"></a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+  
+  
+  
+        <!-- BARRA MENU PC/TABLET -->
+        <ul class="right hide-on-med-and-down">
+          <!--li><a href="">Obras</a></li-->
+          <li><a href="controlruido.html">Control de Ruido</a></li>
+          <li><a href="puerta.html">Puertas</a></li>
+          <li><a href="revestimiento.html" data-activates="revestimientos2">Revestimientos</a></li>
+          <li><a href="difusor.html">Difusores</a></li>
+          <!--li><a href="">Cielos</a></li>
+          <li><a href="">Aislación</a></li-->
+          <li><a href="nosotros.html">Nosotros</a></li>
+        </ul>
+  
+        <!-- BARRA MENU MOVILES -->
+        <ul class="side-nav" id="mobile-demo">
+          <!--li><a href="">Obras</a></li-->
+          <li><a href="controlruido.html">Control de Ruido</a></li>
+          <li><a href="puerta.html">Puertas</a></li>
+          <li><a class="dropdown-button" href="#!" data-activates="revestimientos2">Revestimientos<i class="material-icons right">arrow_drop_down</i></a></li>
+          <li><a class="dropdown-button" href="#!" data-activates="difusores">Difusores<i class="material-icons right">arrow_drop_down</i></a></li>
+          <!--li><a class="dropdown-button" href="#!" data-activates="cielos">Cielos<i class="material-icons right">arrow_drop_down</i></a></li>
+          <li><a class="dropdown-button" href="#!" data-activates="aislacion">Aislación<i class="material-icons right">arrow_drop_down</i></a></li-->
+          <li><a href="nosotros.html">Nosotros</a></li>
+        </ul>
+      </div>
+    </nav>
+  
+    <!-- FIN BARRA DE MENU -->
+
+  <!-- CUERPO DE LA PAGINA -->  
+
+
+
+    <!-- REVESTIMIENTOS -->
+    <!--    <li>
+      <div class="collapsible-header"><i class="material-icons">filter_drama</i>Revestimientos Perforados y Ranurados</div>
+          <div class="collapsible-body">
+            <span class="white-text">
+            <div class="row">
+
+              <!-- IMAGENES -->
+              <div class="col s12 m12 l8">
+                    
+                    <!-- SLIDER DE IMAGENES -->
+
+                    <div class="slider">
+                      <ul class="slides">
+
+                        <li>
+                          <img src="images/principalArquitectura/entelados/absortor00.jpg"> 
+                          <div class="caption right-align">
+                            <h3>Auditorio U. Mayor</h3>
+                            <h5 class=" grey-text text-lighten-3">Entelados en muros</h5>
+                          </div>
+                        </li>
+                        <li>
+                          <img src="images/principalArquitectura/entelados/absortor02.jpg">
+                          <div class="caption right-align">
+                            <h3>Sport Café - Country Club</h3>
+                            <h5 class=" grey-text text-lighten-3">Entelados en Cielo</h5>
+                          </div>
+                        </li>
+                     
+                        
+                      </ul>
+                    </div>
+              </div>
+
+            </div>
+            </span>
+          </div>
+    </li> 
+    
+    <div class="row">
+      <!-- FOOTER ENTELADOS -->
+      <div class="col s12 m4 l2 ">
+          <div class="card darken-1">
+            <a href="./fichas/Entelados.pdf"> 
+              <table class="centered">
+                <tr>
+                  <th><i class="large material-icons">description</i></th>
+                  <th><span class="card-title">Ficha Técnica</span></th>
+                </tr>
+              </table>
+            </a> 
+          </div>
+        </div>
+    
+        <!-- DESCRIPCION entelado -->
+        <div class="col s12 m8 l7">
+          <div class="card-content">
+            <a>                  
+              <span class="card-title">Panel Entelado</span>
+              <p>Los absortores entelados son la perfecta solución, cuando se busca una correcta interrelación entre el diseño estético del recinto
+                y la absorción sonora en el rango de medias y altas frecuencias.</p>
+              <p>Los paneles son diseñados y fabricados, para obtener un resultado estético
+                excepcional, mejorando el confort acústico dek recinto.
+              </p>
+            </a>
+          </div>
+        </div>
+
+      <!-- FOOTER CONTACTO -->
+      <div class="col s12 m12 l3">
+        <div class="card blue-grey darken-1">
+          <div class="card-content white-text">
+            <span class="card-title">Contáctanos</span>
+            <p>(+56 2) 2548 1897  //  contacto@ingmac.cl</p>
+            <a href="https://twitter.com/ingmac_acustica" class="icon-button twitter"><i class="icon-twitter"></i><span> INGMAC_ACUSTICA</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <!--  Scripts-->
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  
+  <script>
+      $(document).ready(function(){
+      $(".button-collapse").sideNav();
+      $('.materialboxed').materialbox();
+      $(".dropdown-button").dropdown();
+      $('.slider').slider();
+      });
+  </script>
+
+  </body>
+</html>
