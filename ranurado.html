@@ -53,7 +53,7 @@
   
         <!-- BARRA MENU PC/TABLET -->
         <ul class="right hide-on-med-and-down">
-          <!--li><a href="">Obras</a></li-->
+          <li><a href="obras.php">Obras</a></li>
           <li><a href="controlruido.html">Control de Ruido</a></li>
           <li><a href="puerta.html">Puertas</a></li>
           <li><a href="revestimiento.html" data-activates="revestimientos2">Revestimientos</a></li>
@@ -65,7 +65,7 @@
   
         <!-- BARRA MENU MOVILES -->
         <ul class="side-nav" id="mobile-demo">
-          <!--li><a href="">Obras</a></li-->
+          <li><a href="obras.php">Obras</a></li>
           <li><a href="controlruido.html">Control de Ruido</a></li>
           <li><a href="puerta.html">Puertas</a></li>
           <li><a class="dropdown-button" href="#!" data-activates="revestimientos2">Revestimientos<i class="material-icons right">arrow_drop_down</i></a></li>
