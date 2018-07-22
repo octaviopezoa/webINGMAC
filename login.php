@@ -1,5 +1,5 @@
 <?php
-
+session_start();
 $email = $_POST['email'];
 $pass = $_POST['password'];
 
@@ -10,8 +10,10 @@ if ($email !='' && $pass !='') {
         $resultado=$conexion->query($consulta);
         $row=$resultado->num_rows;
 
-        if ($row<>0) {
-            header('location: usuarios.php');
+        if ($row==1) {
+            $_SESSION['email']=$_POST['email'];
+            $_SESSION['pass']=base64_encode($_POST['password']);
+            header('location: proyectos.php');
             
         } else {
             header('location: login.html');            

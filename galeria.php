@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-
+<?php session_start(); include 'lib/valida.php';?>
 <html lang="en">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
@@ -31,7 +31,7 @@
         <li><a href="usuarios.php">Usuarios</a></li>
         <li><a href="proyectos.php">Obras</a></li>
         <li><a href="galeria.php">Galería</a></li>
-        <li><a href="">Salir</a></li>
+        <li><a href="./lib/salir.php">Salir</a></li>
       </ul>
 
       <!-- BARRA MENU MOVILES -->
@@ -40,7 +40,7 @@
         <li><a href="usuarios.php">Usuarios</a></li>
         <li><a href="proyectos.php">Obras</a></li>
         <li><a href="galeria.php">Galería</a></li>
-        <li><a href="">Salir</a></li>
+        <li><a href="./lib/salir.php">Salir</a></li>
       </ul>
     </div>
   </nav>
