@@ -78,17 +78,17 @@ if ($id !='') {
       <h5>Actualización de Usuario</h5>
       <div class="input-field col s12 m4 l4">
         <input name="nombre" type="text" class="validate">
-        <label for="nombre"><?php echo "{$usuarios['nombre']}"?></label>
+        <?php echo "{$usuarios['nombre']}"?>
       </div>
 
       <div class="input-field col s12 m4 l4">
         <input name="email" type="email" class="validate">
-        <label for="email"><?php echo "{$usuarios['email']}"?></label>
+        <?php echo "{$usuarios['email']}"?>
       </div>
 
       <div class="input-field col s12 m4 l4">
         <input name="password" type="password" class="validate">
-        <label for="password"><?php echo base64_decode("{$usuarios['clave']}")?></label>
+        <?php echo base64_decode("{$usuarios['clave']}")?>
       </div>
 
       <input name="id" type="hidden" value="<?php echo $id ?>">
